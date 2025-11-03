@@ -1,4 +1,10 @@
 // Concrete Visitor 2 - Discount Calculator
+
+//This is a concrete visitor that calculates discounts for shopping cart items.
+
+// This visitor demonstrates how different business rules can be applied
+
+// to different product categories without modifying the product classes.
 public class DiscountCalculator implements CartVisitor {
     private double totalDiscount = 0;
 
